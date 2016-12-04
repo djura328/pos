@@ -1,0 +1,134 @@
+ul.listTabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+}
+
+.listTabs>li{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #adadad;
+    border-left: 1px solid white;
+    border-bottom: 2px solid #d9534f;
+}
+
+.productTable{
+    /*background-color: #ececec;*/
+    color: #d9534f;
+}
+
+.sumTotal{
+    position: relative;
+    bottom: 10px;
+}
+
+.productDiv{
+    max-height: 160px;
+    min-height: 160px;
+    overflow-y: scroll;
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+/*img:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}*/
+
+.spanOver{
+    display: none;
+}
+
+a.thumbnail:hover .spanOver{
+    display: block;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+}
+
+.productTable th {
+    text-align:center;
+  }
+  
+input.form-control.inputCom{
+    width: 40px;
+    height: 30px;
+}
+
+.input-group-addon, .input-group-btn {
+    width: 0%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.modal-body{
+    text-align:center;  
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+ul.nav-pills>li>a{
+    /*height: 10px;*/
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+ul.nav-pills>li.active>a{
+    /*width: 103px;*/
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.panelPills{
+    padding: 6px;
+}
+
+.customTable{
+    background-color: white;
+}
+
+ul.customEdit{
+    list-style-type: none;
+}
+
+ul.customEdit li{
+    display: inline-block;
+}
+
+ul.customEdit>li>span{
+    border:1px solid grey;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+ul.customEdit>li>span:hover{
+    border:1px solid #2e6da4;
+    background-color: #337ab7;
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    /*border-color: #2e6da4;*/
+}
+
+.table2 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+table2 {
+    background-color: transparent;
+}
+table2 {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
